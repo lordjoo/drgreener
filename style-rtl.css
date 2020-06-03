@@ -1,0 +1,28 @@
+/*
+Theme Name: Dreener
+Version: 1
+Requires at least: 4.7
+Requires PHP: 7.2
+Author: Youssef Mahmoud
+Author URI: https://twitter.com*lordjoo_20
+*/
+@import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
+*{
+    font-family: "Cairo","sans-serif";
+}
+.header .content{
+    text-align: right;
+    direction: rtl;
+}
+.post-card, .post-card *,#footer ,#footer *,.single-post ,.single-posts * {
+    direction: rtl;
+    text-align: right;
+}
+#footer .copyrights p{
+    direction: initial;
+    text-align: center !important;
+}
+#footer .copyrights p{
+    direction: initial;
+    text-align: center !important;
+}

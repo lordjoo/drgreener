@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Public+Sans|Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
+
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+.navbar{
+    position: relative;
+    top: 0;left: 0;right: 0;
+    background: #fff;
+    z-index: 100;
+}
+.navbar *{
+    color:black !important;
+}
+.header{
+    background: url("../imgs/2846379.eps.png");
+    background-size: cover;
+    position: relative;
+    background-position: top;
+}
+.header:after{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: rgba(0,0,0,0.3);
+}
+.header .content{
+    position: relative;
+    z-index: 2;
+    color: white;
+    padding: 35vh 0 20vh 0;
+}
+.cat-p a{
+    text-decoration: none;
+    color: black;
+}
+.post-content img{
+    width: 100%;
+    height: 100%;
+}
+
+.single-pagination .prev, .next{
+    padding: 5px 10px;
+    background: white;
+    -o-transition: 0.2s ease;
+    -moz-transition: 0.2s ease;
+    -webkit-transition: 0.2s ease;
+}
+.single-pagination .prev{
+    float: left;
+}
+.single-pagination .next{
+    float: right;
+}
+
+.single-pagination a{
+    color: #009688 ;
+    padding: 10px;
+    transition: 0.2s ease;
+    -o-transition: 0.2s ease;
+    -moz-transition: 0.2s ease;
+    -webkit-transition: 0.2s ease;
+}
+.single-pagination .prev:hover, .next:hover{
+    background: #558b2f!important;
+    color: white;
+}
+
+.single-pagination .prev:hover a, .next:hover a{
+    color: white;!important;
+}
+.dropdown-menu li a.dropdown-item {
+    color: #333 !important;
+}
+
+.crop{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+footer .footer-menu li{
+    display: inline-block;
+}
+
+footer .footer-menu a{
+    color: #FFF;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+
+footer .fa{
+    color:#FFF;
+    font-size:30px;
+}
+
+.input-group.md-form.form-sm.form-1 input{
+    border: 1px solid #bdbdbd;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+.input-group.md-form.form-sm.form-2 input {
+    border: 1px solid #bdbdbd;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+}
+.input-group.md-form.form-sm.form-2 input.red-border {
+    border: 1px solid #ef9a9a;
+}
+.input-group.md-form.form-sm.form-2 input.lime-border {
+    border: 1px solid #cddc39;
+}
+.input-group.md-form.form-sm.form-2 input.amber-border {
+    border: 1px solid #ffca28;
+}
